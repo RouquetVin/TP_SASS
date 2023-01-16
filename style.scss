@@ -1,0 +1,101 @@
+$main-color: #0d058a;
+$center: center; /* This is a joke*/
+$margin-top: 100px;
+$margin-bottom: 100px;
+$margin-bottom2: 50px;
+$padding-top: 100px;
+$padding-top2: 50px;
+$padding-bottom: 100px;
+$padding-bottom2: 50px;
+
+$random-color: rgb(random(200), random(200), random(200));
+
+
+/***************
+    HEADER
+***************/
+
+header {
+    img {
+        height: 250px;
+        width: auto;
+    } 
+    padding-top: $padding-top2;
+    padding-bottom: $padding-bottom2;
+    background-color: $main-color;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/***************
+    MAIN
+***************/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $random-color; /* juste pour l'exo*/
+}
+
+h2 {
+    text-align: $center;
+    margin-bottom: $margin-bottom2;
+}
+
+section {
+    margin-top: $margin-top;
+}
+
+section img {
+    display: block;
+    background-color: $main-color;
+    border-radius: 10px;
+}
+
+section:first-child a:hover {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.5) 0px -12px 30px, rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.5) 0px 12px 13px, rgba(0, 0, 0, 0.5) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+#about {
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+    background-color: $main-color;
+}
+
+#submitButton {
+    background-color: $main-color;
+}
+
+/***************
+    FOOTER
+***************/
+
+footer {
+    background-color: $main-color;
+    height: auto;
+    width: auto;
+    margin-top: $margin-top;
+    padding-bottom: $padding-bottom;
+}
+
+h4 {
+    margin-top: $margin-top;
+}
+
+#texte-footer {
+    h4,p {
+        color: white;
+    }
+}
+
+svg {
+    color: white;
+}
+
+.reseauxSociaux {
+    margin: 10px;
+}
